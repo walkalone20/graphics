@@ -261,7 +261,7 @@ Polyon 平台允许上传多个 Solution（可以有错误）。在 Polygon 中�
 
 如果要上传 Codeforces Gym 平台，请邀请 codeforces 并给予只读权限，否则将无法读取题面的 descriptor。你只需要在 Codeforces Gym 平台中使用 coach mode 然后 ```create new training```，在 dashboard 的下方选择 ```New problems from contest```，输入 Polygon Contest ID（位于 Polygon 平台比赛界面右上角）即可导入。
 
-如果是下载到本地，（下载到本地进行配置部分待补）
+如果是下载到本地，你可以下载打包好的 package，解压后有一个 ```do_all.bat```，运行即可生成题面和所有的测试数据。
 
 ## 出题规范
 
@@ -366,7 +366,7 @@ Walk_alone 想要你计算 $\sum_{d|n} \varphi(d)$。如果 $n$ 为负数，请�
 
 ### 其他特殊环境
 
-在 latex 中还有若干的特殊环境如 ```enumerate,tabular,itemize``` 等，可以创建有序表、无序表等。由于 Polygon 平台支持的 latex 语法仅为全部 latex 语法的子集，因而具体环境请根据其[官方文档](https://polygon.codeforces.com/docs/statements-tex-manual)具体分析。
+在 latex 中还有若干的特殊环境如 ```enumerate,tabular,itemize``` 等，可以创建有序表、无序表等。由于 Polygon 平台支持的 latex 语法仅为全部 latex 语法的子集，因而具体环境请根据其[官方文档](https://polygon.codeforces.com/docs/statements-tex-manual)具体分析。如果还需要其他的环境，可以在比赛文件中的 ```olymp.sty``` 文件中增补对应的 package。
 
 ## 审计工作
 
